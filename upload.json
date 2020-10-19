@@ -22,8 +22,8 @@
           "type": "string"
         },
         {
-          "name": "orderHash",
-          "type": "string"
+          "name": "orderHashes",
+          "type": "string[]"
         },
         {
           "name": "makerAddress",
@@ -39,8 +39,8 @@
     },
     "message": {
       "action": "cancelOrder",
-      "orderHash": "0x123",
+      "orderHashes": "[0x123, 0x456, 0x789]",
       "makerAddress": "0xf9593A9d7F735814B87D08e8D8aD624f58d53B10"
     }
-  }
+  }  
 }
