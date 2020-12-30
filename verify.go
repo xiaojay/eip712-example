@@ -29,6 +29,7 @@ func main() {
 
 	userAddress := common.HexToAddress("0xf9593A9d7F735814B87D08e8D8aD624f58d53B10")
 	signature, _ := hex.DecodeString("a9a3e5f72b48651b735d0908f1f240b06eafe7166dbe6b4fc8b57d8b8515ef555fe4b124c2b50d6907423426ec46bc12c5956942dcfd01e02d70912c87a389c41b")
+
 	if len(signature) != 65 {
 		fmt.Printf("invalid signature length: %d", len(signature))
 	}
